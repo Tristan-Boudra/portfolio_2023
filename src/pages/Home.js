@@ -1,5 +1,11 @@
+import Navbar from "../components/layout/navbar";
+
 const Home = () => {
-    return <h1>Home</h1>
+    return (
+        <div className="bgPrimary h-screen">
+            <Navbar />
+        </div>
+    )
 }
 
 export default Home;

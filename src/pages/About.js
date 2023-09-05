@@ -1,5 +1,11 @@
+import Navbar from "../components/layout/navbar";
+
 const About = () => {
-    return <h1>About</h1>
+    return (
+        <div className="bgPrimary h-screen">
+            <Navbar />
+        </div>
+    )
 }
 
 export default About;
