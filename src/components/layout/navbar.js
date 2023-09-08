@@ -8,22 +8,17 @@ const Navbar = () => {
           <ul className="flex flex-row gap-8 text-sm font-semibold text-slate-600">
             <li>
               <Link to="/" className="txtNavbar">
-                Accueil
-              </Link>
-            </li>
-            <li>
-              <Link to="/about" className="txtNavbar">
-                A propos
+                Home
               </Link>
             </li>
             <li>
               <Link to="/project" className="txtNavbar">
-                Project
+                Projects
               </Link>
             </li>
             <li>
               <Link to="/contact" className="txtNavbar">
-                Nous contacter
+                Contact
               </Link>
             </li>
           </ul>
