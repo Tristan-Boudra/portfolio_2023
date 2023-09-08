@@ -1,3 +1,4 @@
+import Footer from "../components/layout/footer";
 import Navbar from "../components/layout/navbar";
 import Fade from "react-reveal/Fade";
 
@@ -21,7 +22,7 @@ const Home = () => {
             <div className="card item-1 px-20 py-10 relative">
               <img
                 src={require("../assets/focus.png")}
-                className="h-auto w-72 rounded-lg mx-auto absolute top-1 left-14"
+                className="h-auto w-72 mx-auto absolute top-1 left-14"
                 alt=""
               />
               <p className="text-xl font-bold text-center justify-center flex mt-16 bg-gradient-to-b from-[#ffe993] to-[#eb831c] bg-clip-text text-transparent">
@@ -52,7 +53,7 @@ const Home = () => {
             <div className="card item-4 px-20 py-10 flex relative">
               <img
                 src={require("../assets/heart.png")}
-                className="h-auto w-28 z-0 rounded-lg mx-auto absolute top-0 right-0 overflow-auto"
+                className="h-auto w-28 z-0 absolute top-0 right-0"
                 alt=""
               />
               <p className="text-4xl font-bold z-10 text-center flex items-center bg-gradient-to-b from-[#ffe993] to-[#eb831c] bg-clip-text text-transparent">
@@ -62,6 +63,7 @@ const Home = () => {
           </Fade>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };
